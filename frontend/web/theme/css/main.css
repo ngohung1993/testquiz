@@ -1,0 +1,257 @@
+.container {
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+.header-logo {
+    position: relative;
+    height: 60px;
+    padding: 10px 0;
+}
+
+.searchBox {
+    position: absolute;
+    top: 20px;
+    left: 320px;
+}
+
+.header .topnav {
+    position: absolute;
+    right: 0;
+    top: 16px;
+    padding-bottom: 13px;
+}
+
+.logo a {
+    width: 250px;
+    display: inline-block;
+    overflow: hidden;
+    text-indent: 9999px;
+    float: left;
+    height: 60px;
+}
+
+.searchBox form {
+    text-align: center;
+}
+
+.searchBox #q {
+    display: inline-block;
+    padding: 7px 0;
+    width: 544px;
+    height: 34px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-left: 8px;
+    padding-right: 64px;
+}
+
+.searchBox .btnHeaderFind {
+    position: absolute;
+    top: 1px;
+    right: 0;
+    z-index: 100;
+    opacity: .54;
+    height: 2rem;
+    text-align: center;
+    background: url(images/search.png) no-repeat center;
+    color: rgba(0, 0, 0, .87);
+    width: 35px;
+    cursor: pointer;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+}
+
+.header .topnav .user-info {
+    display: block;
+}
+
+.header .topnav .user-info .user-avatar {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    overflow: hidden;
+    border-radius: 16px;
+    margin-right: 8px;
+}
+
+.header .topnav .user-info .user-avatar img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.header .topnav .user-info .user-name {
+    display: inline-block;
+    max-width: 120px;
+    overflow: hidden;
+    color: rgba(0, 0, 0, .87);
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.nav-top {
+    display: none;
+    position: absolute;
+    width: 200px;
+    border: solid 1px #f2f5f8;
+    top: 45px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .25);
+    border-radius: 3px;
+    right: 0;
+    background: #fff;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.nav-top li {
+    display: block;
+    position: relative;
+    border-bottom: 1px solid #f2f5f8;
+    line-height: 35px;
+}
+
+.nav-top li a {
+    color: rgba(0, 0, 0, .87);
+}
+
+.topnav:hover .nav-top {
+    display: block !important;
+    z-index: 99;
+}
+
+.section.box-reader .container {
+    background: #fff;
+    box-sizing: border-box;
+    border: 1px solid #eee;
+    border-radius: 3px;
+}
+
+.breadcrumbs {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+}
+
+.breadcrumbs .breadcrumb {
+    color: #039;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.breadcrumbs .breadcrumb {
+    color: #039;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.breadcrumbs a.home-icon {
+    background: url(images/ICO.png) 1px 0 no-repeat;
+    width: 24px;
+    text-indent: -3000px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.breadcrumbs .breadcrumb::after {
+    font-family: Comic Sans MS;
+    padding: 0 5px;
+    color: #666;
+    font-size: 11px;
+}
+
+.breadcrumbs a {
+    font-size: 13px;
+    color: rgba(0, 0, 0, .54);
+    padding: 0;
+}
+
+.quizpage .q-toolbox {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.quizpage .q-toolbox .button {
+    cursor: pointer;
+    font-size: 13px;
+    padding: 10px 10px;
+    height: auto;
+    line-height: 18px;
+    margin: 16px 8px;
+    border-radius: 3px;
+    border: 1px solid #069;
+    color: #fff;
+    text-shadow: 0 1px rgba(0, 0, 0, .1);
+    background-color: #069;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#069), to(#069));
+    background-image: -webkit-linear-gradient(top, #069, #069);
+    background-image: -moz-linear-gradient(top, #069, #069);
+    background-image: -ms-linear-gradient(top, #069, #069);
+    background-image: -o-linear-gradient(top, #069, #069);
+    background-image: linear-gradient(top, #069, #069);
+}
+
+.quizpage .related-items {
+    margin-bottom: 24px;
+}
+
+.quizpage .related-items .title {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.listbox {
+    padding: 16px 8px 0 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quizpage .related-items .viewmore {
+    padding: 8px 0;
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+.viewmore {
+    position: relative;
+    display: block;
+    border-top: 1px solid #eee;
+}
+
+.btn-login {
+    padding: 8px;
+    color: rgba(0, 0, 0, .87) !important;
+}
+.btn-login:after {
+    right: 73px;
+    top: -5px;
+}
+.btn-login:after {
+    content: " ";
+    display: block;
+    opacity: .87;
+    background: url(images/user.png) no-repeat 0 1px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+}
+input {
+    border: 1px solid #eee;
+}

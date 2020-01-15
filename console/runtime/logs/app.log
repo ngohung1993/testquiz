@@ -1,0 +1,1747 @@
+2019-03-04 04:52:12 [-][-][-][error][ReflectionException] ReflectionException: Class m171219_171921_create_trademark_table does not exist in F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\di\Container.php:428
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\di\Container.php(428): ReflectionClass->__construct('m171219_171921_...')
+#1 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('m171219_171921_...')
+#2 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('m171219_171921_...', Array, Array)
+#3 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('m171219_171921_...', Array, Array)
+#4 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\controllers\MigrateController.php(201): yii\BaseYii::createObject(Array)
+#5 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(724): yii\console\controllers\MigrateController->createMigration('m171219_171921_...')
+#6 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m171219_171921_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#8 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#11 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#12 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#13 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#14 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\yii(23): yii\base\Application->run()
+#16 {main}
+2019-03-04 04:51:45 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PROMPT' => '$P$G'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-99285S0'
+    'LOCALAPPDATA' => 'C:\\Users\\V-THOA\\AppData\\Local'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  7 14:06:32 2018'
+    'PROCESSOR_LEVEL' => '6'
+    'USERDOMAIN' => 'DESKTOP-99285S0'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'LOGONSERVER' => '\\\\DESKTOP-99285S0'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_131'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'ANDROID_HOME' => 'C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'SystemDrive' => 'C:'
+    'OneDrive' => 'C:\\Users\\V-THOA\\OneDrive'
+    'APPDATA' => 'C:\\Users\\V-THOA\\AppData\\Roaming'
+    'USERNAME' => 'V-THOA'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'Path' => 'C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\V-THOA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\V-THOA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\V-THOA\\AppData\\Roaming\\npm;'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'OS' => 'Windows_NT'
+    'COMPUTERNAME' => 'DESKTOP-99285S0'
+    'DASHLANE_DLL_DIR' => 'C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components'
+    'PROCESSOR_REVISION' => '4501'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\V-THOA'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\V-THOA'
+    'TMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1551675105.5138
+    'REQUEST_TIME' => 1551675105
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-03-04 04:53:16 [-][-][-][error][ReflectionException] ReflectionException: Class m171219_171921_create_trademark_table does not exist in F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\di\Container.php:428
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\di\Container.php(428): ReflectionClass->__construct('m171219_171921_...')
+#1 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('m171219_171921_...')
+#2 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('m171219_171921_...', Array, Array)
+#3 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('m171219_171921_...', Array, Array)
+#4 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\controllers\MigrateController.php(201): yii\BaseYii::createObject(Array)
+#5 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(724): yii\console\controllers\MigrateController->createMigration('m171219_171921_...')
+#6 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m171219_171921_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#8 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#11 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#12 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#13 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#14 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\yii(23): yii\base\Application->run()
+#16 {main}
+2019-03-04 04:53:13 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PROMPT' => '$P$G'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-99285S0'
+    'LOCALAPPDATA' => 'C:\\Users\\V-THOA\\AppData\\Local'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  7 14:06:32 2018'
+    'PROCESSOR_LEVEL' => '6'
+    'USERDOMAIN' => 'DESKTOP-99285S0'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'LOGONSERVER' => '\\\\DESKTOP-99285S0'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_131'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'ANDROID_HOME' => 'C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'SystemDrive' => 'C:'
+    'OneDrive' => 'C:\\Users\\V-THOA\\OneDrive'
+    'APPDATA' => 'C:\\Users\\V-THOA\\AppData\\Roaming'
+    'USERNAME' => 'V-THOA'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'Path' => 'C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\V-THOA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\V-THOA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\V-THOA\\AppData\\Roaming\\npm;'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'OS' => 'Windows_NT'
+    'COMPUTERNAME' => 'DESKTOP-99285S0'
+    'DASHLANE_DLL_DIR' => 'C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components'
+    'PROCESSOR_REVISION' => '4501'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\V-THOA'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\V-THOA'
+    'TMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1551675193.3502
+    'REQUEST_TIME' => 1551675193
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-03-04 04:53:38 [-][-][-][error][ReflectionException] ReflectionException: Class m171219_171921_create_trademark_table does not exist in F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\di\Container.php:428
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\di\Container.php(428): ReflectionClass->__construct('m171219_171921_...')
+#1 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('m171219_171921_...')
+#2 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('m171219_171921_...', Array, Array)
+#3 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('m171219_171921_...', Array, Array)
+#4 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\controllers\MigrateController.php(201): yii\BaseYii::createObject(Array)
+#5 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(724): yii\console\controllers\MigrateController->createMigration('m171219_171921_...')
+#6 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m171219_171921_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#8 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#11 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#12 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#13 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#14 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\yii(23): yii\base\Application->run()
+#16 {main}
+2019-03-04 04:53:36 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PROMPT' => '$P$G'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-99285S0'
+    'LOCALAPPDATA' => 'C:\\Users\\V-THOA\\AppData\\Local'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  7 14:06:32 2018'
+    'PROCESSOR_LEVEL' => '6'
+    'USERDOMAIN' => 'DESKTOP-99285S0'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'LOGONSERVER' => '\\\\DESKTOP-99285S0'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_131'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'ANDROID_HOME' => 'C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'SystemDrive' => 'C:'
+    'OneDrive' => 'C:\\Users\\V-THOA\\OneDrive'
+    'APPDATA' => 'C:\\Users\\V-THOA\\AppData\\Roaming'
+    'USERNAME' => 'V-THOA'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'Path' => 'C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\V-THOA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\V-THOA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\V-THOA\\AppData\\Roaming\\npm;'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'OS' => 'Windows_NT'
+    'COMPUTERNAME' => 'DESKTOP-99285S0'
+    'DASHLANE_DLL_DIR' => 'C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components'
+    'PROCESSOR_REVISION' => '4501'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\V-THOA'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\V-THOA'
+    'TMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1551675216.7705
+    'REQUEST_TIME' => 1551675216
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-03-04 04:54:15 [-][-][-][error][ReflectionException] ReflectionException: Class m171219_171921_create_trademark_table does not exist in F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\di\Container.php:428
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\di\Container.php(428): ReflectionClass->__construct('m171219_171921_...')
+#1 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('m171219_171921_...')
+#2 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('m171219_171921_...', Array, Array)
+#3 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('m171219_171921_...', Array, Array)
+#4 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\controllers\MigrateController.php(201): yii\BaseYii::createObject(Array)
+#5 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(724): yii\console\controllers\MigrateController->createMigration('m171219_171921_...')
+#6 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m171219_171921_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#8 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#11 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#12 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#13 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#14 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 F:\ImportantData\Framework\Yii2\batdongsangialam.com.vn\yii(23): yii\base\Application->run()
+#16 {main}
+2019-03-04 04:54:13 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PROMPT' => '$P$G'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-99285S0'
+    'LOCALAPPDATA' => 'C:\\Users\\V-THOA\\AppData\\Local'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  7 14:06:32 2018'
+    'PROCESSOR_LEVEL' => '6'
+    'USERDOMAIN' => 'DESKTOP-99285S0'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'LOGONSERVER' => '\\\\DESKTOP-99285S0'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_131'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'ANDROID_HOME' => 'C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'SystemDrive' => 'C:'
+    'OneDrive' => 'C:\\Users\\V-THOA\\OneDrive'
+    'APPDATA' => 'C:\\Users\\V-THOA\\AppData\\Roaming'
+    'USERNAME' => 'V-THOA'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'Path' => 'C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\V-THOA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\V-THOA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\V-THOA\\AppData\\Roaming\\npm;'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'OS' => 'Windows_NT'
+    'COMPUTERNAME' => 'DESKTOP-99285S0'
+    'DASHLANE_DLL_DIR' => 'C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components'
+    'PROCESSOR_REVISION' => '4501'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\V-THOA'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\V-THOA'
+    'TMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1551675253.7779
+    'REQUEST_TIME' => 1551675253
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-04-24 06:47:47 [-][-][-][error][ParseError] ParseError: syntax error, unexpected ';', expecting ']' in F:\ImportantData\Framework\Yii2\dethi\console\migrations\m130524_201442_init.php:34
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\MigrateController.php(196): yii\console\controllers\BaseMigrateController->includeMigrationFile('m130524_201442_...')
+#1 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(724): yii\console\controllers\MigrateController->createMigration('m130524_201442_...')
+#2 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#7 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#8 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 F:\ImportantData\Framework\Yii2\dethi\yii(23): yii\base\Application->run()
+#12 {main}
+2019-04-24 06:47:41 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PROMPT' => '$P$G'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-99285S0'
+    'LOCALAPPDATA' => 'C:\\Users\\V-THOA\\AppData\\Local'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  7 14:06:32 2018'
+    'PROCESSOR_LEVEL' => '6'
+    'USERDOMAIN' => 'DESKTOP-99285S0'
+    'LOGONSERVER' => '\\\\DESKTOP-99285S0'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_131'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'ANDROID_HOME' => 'C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'SystemDrive' => 'C:'
+    'OneDrive' => 'C:\\Users\\V-THOA\\OneDrive'
+    'APPDATA' => 'C:\\Users\\V-THOA\\AppData\\Roaming'
+    'USERNAME' => 'V-THOA'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'Path' => 'C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\V-THOA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\V-THOA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\V-THOA\\AppData\\Roaming\\npm;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'OS' => 'Windows_NT'
+    'COMPUTERNAME' => 'DESKTOP-99285S0'
+    'DASHLANE_DLL_DIR' => 'C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components'
+    'PROCESSOR_REVISION' => '4501'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\V-THOA'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\V-THOA'
+    'TMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556088461.9548
+    'REQUEST_TIME' => 1556088461
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-04-24 06:48:33 [-][-][-][error][ParseError] ParseError: syntax error, unexpected ';', expecting ']' in F:\ImportantData\Framework\Yii2\dethi\console\migrations\m180205_094242_create_exams_table.php:22
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\MigrateController.php(196): yii\console\controllers\BaseMigrateController->includeMigrationFile('m180205_094242_...')
+#1 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(724): yii\console\controllers\MigrateController->createMigration('m180205_094242_...')
+#2 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m180205_094242_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#7 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#8 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 F:\ImportantData\Framework\Yii2\dethi\yii(23): yii\base\Application->run()
+#12 {main}
+2019-04-24 06:48:24 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PROMPT' => '$P$G'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-99285S0'
+    'LOCALAPPDATA' => 'C:\\Users\\V-THOA\\AppData\\Local'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  7 14:06:32 2018'
+    'PROCESSOR_LEVEL' => '6'
+    'USERDOMAIN' => 'DESKTOP-99285S0'
+    'LOGONSERVER' => '\\\\DESKTOP-99285S0'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_131'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'ANDROID_HOME' => 'C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'SystemDrive' => 'C:'
+    'OneDrive' => 'C:\\Users\\V-THOA\\OneDrive'
+    'APPDATA' => 'C:\\Users\\V-THOA\\AppData\\Roaming'
+    'USERNAME' => 'V-THOA'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'Path' => 'C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\V-THOA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\V-THOA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\V-THOA\\AppData\\Roaming\\npm;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'OS' => 'Windows_NT'
+    'COMPUTERNAME' => 'DESKTOP-99285S0'
+    'DASHLANE_DLL_DIR' => 'C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components'
+    'PROCESSOR_REVISION' => '4501'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\V-THOA'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\V-THOA'
+    'TMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556088504.5825
+    'REQUEST_TIME' => 1556088504
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-04-24 06:52:14 [-][-][-][error][ParseError] ParseError: syntax error, unexpected ''time'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in F:\ImportantData\Framework\Yii2\dethi\console\migrations\m180205_094242_create_exams_table.php:40
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\MigrateController.php(196): yii\console\controllers\BaseMigrateController->includeMigrationFile('m180205_094242_...')
+#1 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(724): yii\console\controllers\MigrateController->createMigration('m180205_094242_...')
+#2 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m180205_094242_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#7 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#8 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 F:\ImportantData\Framework\Yii2\dethi\yii(23): yii\base\Application->run()
+#12 {main}
+2019-04-24 06:52:05 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PROMPT' => '$P$G'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-99285S0'
+    'LOCALAPPDATA' => 'C:\\Users\\V-THOA\\AppData\\Local'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  7 14:06:32 2018'
+    'PROCESSOR_LEVEL' => '6'
+    'USERDOMAIN' => 'DESKTOP-99285S0'
+    'LOGONSERVER' => '\\\\DESKTOP-99285S0'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_131'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'ANDROID_HOME' => 'C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'SystemDrive' => 'C:'
+    'OneDrive' => 'C:\\Users\\V-THOA\\OneDrive'
+    'APPDATA' => 'C:\\Users\\V-THOA\\AppData\\Roaming'
+    'USERNAME' => 'V-THOA'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'Path' => 'C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\V-THOA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\V-THOA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\V-THOA\\AppData\\Roaming\\npm;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'OS' => 'Windows_NT'
+    'COMPUTERNAME' => 'DESKTOP-99285S0'
+    'DASHLANE_DLL_DIR' => 'C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components'
+    'PROCESSOR_REVISION' => '4501'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\V-THOA'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\V-THOA'
+    'TMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556088725.4099
+    'REQUEST_TIME' => 1556088725
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-04-24 06:52:58 [-][-][-][error][ParseError] ParseError: syntax error, unexpected ''time'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in F:\ImportantData\Framework\Yii2\dethi\console\migrations\m180205_094242_create_exams_table.php:40
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\MigrateController.php(196): yii\console\controllers\BaseMigrateController->includeMigrationFile('m180205_094242_...')
+#1 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(724): yii\console\controllers\MigrateController->createMigration('m180205_094242_...')
+#2 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m180205_094242_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#7 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#8 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 F:\ImportantData\Framework\Yii2\dethi\yii(23): yii\base\Application->run()
+#12 {main}
+2019-04-24 06:52:49 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PROMPT' => '$P$G'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-99285S0'
+    'LOCALAPPDATA' => 'C:\\Users\\V-THOA\\AppData\\Local'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  7 14:06:32 2018'
+    'PROCESSOR_LEVEL' => '6'
+    'USERDOMAIN' => 'DESKTOP-99285S0'
+    'LOGONSERVER' => '\\\\DESKTOP-99285S0'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_131'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'ANDROID_HOME' => 'C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'SystemDrive' => 'C:'
+    'OneDrive' => 'C:\\Users\\V-THOA\\OneDrive'
+    'APPDATA' => 'C:\\Users\\V-THOA\\AppData\\Roaming'
+    'USERNAME' => 'V-THOA'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'Path' => 'C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\V-THOA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\V-THOA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\V-THOA\\AppData\\Roaming\\npm;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'OS' => 'Windows_NT'
+    'COMPUTERNAME' => 'DESKTOP-99285S0'
+    'DASHLANE_DLL_DIR' => 'C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components'
+    'PROCESSOR_REVISION' => '4501'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\V-THOA'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\V-THOA'
+    'TMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556088769.505
+    'REQUEST_TIME' => 1556088769
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-04-24 06:56:06 [-][-][-][error][ParseError] ParseError: syntax error, unexpected ''time'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in F:\ImportantData\Framework\Yii2\dethi\console\migrations\m180205_094242_create_exams_table.php:40
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\MigrateController.php(196): yii\console\controllers\BaseMigrateController->includeMigrationFile('m180205_094242_...')
+#1 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(724): yii\console\controllers\MigrateController->createMigration('m180205_094242_...')
+#2 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m180205_094242_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#7 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#8 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 F:\ImportantData\Framework\Yii2\dethi\yii(23): yii\base\Application->run()
+#12 {main}
+2019-04-24 06:55:57 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PROMPT' => '$P$G'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-99285S0'
+    'LOCALAPPDATA' => 'C:\\Users\\V-THOA\\AppData\\Local'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  7 14:06:32 2018'
+    'PROCESSOR_LEVEL' => '6'
+    'USERDOMAIN' => 'DESKTOP-99285S0'
+    'LOGONSERVER' => '\\\\DESKTOP-99285S0'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_131'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'ANDROID_HOME' => 'C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'SystemDrive' => 'C:'
+    'OneDrive' => 'C:\\Users\\V-THOA\\OneDrive'
+    'APPDATA' => 'C:\\Users\\V-THOA\\AppData\\Roaming'
+    'USERNAME' => 'V-THOA'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'Path' => 'C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\V-THOA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\V-THOA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\V-THOA\\AppData\\Roaming\\npm;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'OS' => 'Windows_NT'
+    'COMPUTERNAME' => 'DESKTOP-99285S0'
+    'DASHLANE_DLL_DIR' => 'C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components'
+    'PROCESSOR_REVISION' => '4501'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\V-THOA'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\V-THOA'
+    'TMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556088957.4305
+    'REQUEST_TIME' => 1556088957
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-04-24 07:00:39 [-][-][-][error][ParseError] ParseError: syntax error, unexpected ';', expecting ']' in F:\ImportantData\Framework\Yii2\dethi\console\migrations\m180205_094242_create_exams_table.php:39
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\MigrateController.php(196): yii\console\controllers\BaseMigrateController->includeMigrationFile('m180205_094242_...')
+#1 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(724): yii\console\controllers\MigrateController->createMigration('m180205_094242_...')
+#2 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m180205_094242_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#7 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#8 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 F:\ImportantData\Framework\Yii2\dethi\yii(23): yii\base\Application->run()
+#12 {main}
+2019-04-24 07:00:38 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PROMPT' => '$P$G'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-99285S0'
+    'LOCALAPPDATA' => 'C:\\Users\\V-THOA\\AppData\\Local'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  7 14:06:32 2018'
+    'PROCESSOR_LEVEL' => '6'
+    'USERDOMAIN' => 'DESKTOP-99285S0'
+    'LOGONSERVER' => '\\\\DESKTOP-99285S0'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_131'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'ANDROID_HOME' => 'C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'SystemDrive' => 'C:'
+    'OneDrive' => 'C:\\Users\\V-THOA\\OneDrive'
+    'APPDATA' => 'C:\\Users\\V-THOA\\AppData\\Roaming'
+    'USERNAME' => 'V-THOA'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'Path' => 'C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\V-THOA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\V-THOA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\V-THOA\\AppData\\Roaming\\npm;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'OS' => 'Windows_NT'
+    'COMPUTERNAME' => 'DESKTOP-99285S0'
+    'DASHLANE_DLL_DIR' => 'C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components'
+    'PROCESSOR_REVISION' => '4501'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\V-THOA'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\V-THOA'
+    'TMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556089238.1837
+    'REQUEST_TIME' => 1556089238
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-04-24 07:02:46 [-][-][-][error][yii\base\InvalidConfigException] ReflectionException: Class m180205_094242_create_exams_table does not exist in F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\di\Container.php:431
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\di\Container.php(431): ReflectionClass->__construct('m180205_094242_...')
+#1 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('m180205_094242_...')
+#2 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('m180205_094242_...', Array, Array)
+#3 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('m180205_094242_...', Array, Array)
+#4 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\MigrateController.php(201): yii\BaseYii::createObject(Array)
+#5 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(724): yii\console\controllers\MigrateController->createMigration('m180205_094242_...')
+#6 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m180205_094242_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#8 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#11 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#12 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#13 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#14 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 F:\ImportantData\Framework\Yii2\dethi\yii(23): yii\base\Application->run()
+#16 {main}
+
+Next yii\base\InvalidConfigException: Failed to instantiate component or class "m180205_094242_create_exams_table". in F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\di\Container.php:433
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('m180205_094242_...')
+#1 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('m180205_094242_...', Array, Array)
+#2 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('m180205_094242_...', Array, Array)
+#3 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\MigrateController.php(201): yii\BaseYii::createObject(Array)
+#4 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(724): yii\console\controllers\MigrateController->createMigration('m180205_094242_...')
+#5 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m180205_094242_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#10 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 F:\ImportantData\Framework\Yii2\dethi\yii(23): yii\base\Application->run()
+#15 {main}
+2019-04-24 07:02:36 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PROMPT' => '$P$G'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-99285S0'
+    'LOCALAPPDATA' => 'C:\\Users\\V-THOA\\AppData\\Local'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  7 14:06:32 2018'
+    'PROCESSOR_LEVEL' => '6'
+    'USERDOMAIN' => 'DESKTOP-99285S0'
+    'LOGONSERVER' => '\\\\DESKTOP-99285S0'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_131'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'ANDROID_HOME' => 'C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'SystemDrive' => 'C:'
+    'OneDrive' => 'C:\\Users\\V-THOA\\OneDrive'
+    'APPDATA' => 'C:\\Users\\V-THOA\\AppData\\Roaming'
+    'USERNAME' => 'V-THOA'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'Path' => 'C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\V-THOA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\V-THOA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\V-THOA\\AppData\\Roaming\\npm;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'OS' => 'Windows_NT'
+    'COMPUTERNAME' => 'DESKTOP-99285S0'
+    'DASHLANE_DLL_DIR' => 'C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components'
+    'PROCESSOR_REVISION' => '4501'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\V-THOA'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\V-THOA'
+    'TMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556089356.0268
+    'REQUEST_TIME' => 1556089356
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-04-24 07:25:28 [-][-][-][error][yii\base\ErrorException:64] yii\base\ErrorException: Cannot use empty array elements in arrays in F:\ImportantData\Framework\Yii2\dethi\console\migrations\m190424_043035_create_transaction_histories_table.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-04-24 07:25:04 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PROMPT' => '$P$G'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-99285S0'
+    'LOCALAPPDATA' => 'C:\\Users\\V-THOA\\AppData\\Local'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  7 14:06:32 2018'
+    'PROCESSOR_LEVEL' => '6'
+    'USERDOMAIN' => 'DESKTOP-99285S0'
+    'LOGONSERVER' => '\\\\DESKTOP-99285S0'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_131'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'ANDROID_HOME' => 'C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'SystemDrive' => 'C:'
+    'OneDrive' => 'C:\\Users\\V-THOA\\OneDrive'
+    'APPDATA' => 'C:\\Users\\V-THOA\\AppData\\Roaming'
+    'USERNAME' => 'V-THOA'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'Path' => 'C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\V-THOA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\V-THOA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\V-THOA\\AppData\\Roaming\\npm;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'OS' => 'Windows_NT'
+    'COMPUTERNAME' => 'DESKTOP-99285S0'
+    'DASHLANE_DLL_DIR' => 'C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components'
+    'PROCESSOR_REVISION' => '4501'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\V-THOA'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\V-THOA'
+    'TMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556090704.3961
+    'REQUEST_TIME' => 1556090704
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-04-24 07:26:43 [-][-][-][error][yii\base\ErrorException:64] yii\base\ErrorException: Cannot use empty array elements in arrays in F:\ImportantData\Framework\Yii2\dethi\console\migrations\m190424_043035_create_transaction_histories_table.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-04-24 07:26:20 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PROMPT' => '$P$G'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-99285S0'
+    'LOCALAPPDATA' => 'C:\\Users\\V-THOA\\AppData\\Local'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  7 14:06:32 2018'
+    'PROCESSOR_LEVEL' => '6'
+    'USERDOMAIN' => 'DESKTOP-99285S0'
+    'LOGONSERVER' => '\\\\DESKTOP-99285S0'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_131'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'ANDROID_HOME' => 'C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'SystemDrive' => 'C:'
+    'OneDrive' => 'C:\\Users\\V-THOA\\OneDrive'
+    'APPDATA' => 'C:\\Users\\V-THOA\\AppData\\Roaming'
+    'USERNAME' => 'V-THOA'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'Path' => 'C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\V-THOA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\V-THOA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\V-THOA\\AppData\\Roaming\\npm;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'OS' => 'Windows_NT'
+    'COMPUTERNAME' => 'DESKTOP-99285S0'
+    'DASHLANE_DLL_DIR' => 'C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components'
+    'PROCESSOR_REVISION' => '4501'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\V-THOA'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\V-THOA'
+    'TMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556090780.0088
+    'REQUEST_TIME' => 1556090780
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-04-24 07:31:23 [-][-][-][error][yii\base\ErrorException:64] yii\base\ErrorException: Cannot use empty array elements in arrays in F:\ImportantData\Framework\Yii2\dethi\console\migrations\m190424_043035_create_transaction_histories_table.php:20
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-04-24 07:30:57 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PROMPT' => '$P$G'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-99285S0'
+    'LOCALAPPDATA' => 'C:\\Users\\V-THOA\\AppData\\Local'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  7 14:06:32 2018'
+    'PROCESSOR_LEVEL' => '6'
+    'USERDOMAIN' => 'DESKTOP-99285S0'
+    'LOGONSERVER' => '\\\\DESKTOP-99285S0'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_131'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'ANDROID_HOME' => 'C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'SystemDrive' => 'C:'
+    'OneDrive' => 'C:\\Users\\V-THOA\\OneDrive'
+    'APPDATA' => 'C:\\Users\\V-THOA\\AppData\\Roaming'
+    'USERNAME' => 'V-THOA'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'Path' => 'C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\V-THOA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\V-THOA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\V-THOA\\AppData\\Roaming\\npm;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'OS' => 'Windows_NT'
+    'COMPUTERNAME' => 'DESKTOP-99285S0'
+    'DASHLANE_DLL_DIR' => 'C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components'
+    'PROCESSOR_REVISION' => '4501'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\V-THOA'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\V-THOA'
+    'TMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556091057.5052
+    'REQUEST_TIME' => 1556091057
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-04-24 07:34:05 [-][-][-][error][ParseError] ParseError: syntax error, unexpected ';', expecting ']' in F:\ImportantData\Framework\Yii2\dethi\console\migrations\m190424_044247_create_manage_exams_table.php:25
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\MigrateController.php(196): yii\console\controllers\BaseMigrateController->includeMigrationFile('m190424_044247_...')
+#1 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(724): yii\console\controllers\MigrateController->createMigration('m190424_044247_...')
+#2 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m190424_044247_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#7 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#8 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 F:\ImportantData\Framework\Yii2\dethi\yii(23): yii\base\Application->run()
+#12 {main}
+2019-04-24 07:33:40 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PROMPT' => '$P$G'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-99285S0'
+    'LOCALAPPDATA' => 'C:\\Users\\V-THOA\\AppData\\Local'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  7 14:06:32 2018'
+    'PROCESSOR_LEVEL' => '6'
+    'USERDOMAIN' => 'DESKTOP-99285S0'
+    'LOGONSERVER' => '\\\\DESKTOP-99285S0'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_131'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'ANDROID_HOME' => 'C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'SystemDrive' => 'C:'
+    'OneDrive' => 'C:\\Users\\V-THOA\\OneDrive'
+    'APPDATA' => 'C:\\Users\\V-THOA\\AppData\\Roaming'
+    'USERNAME' => 'V-THOA'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'Path' => 'C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\V-THOA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\V-THOA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\V-THOA\\AppData\\Roaming\\npm;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'OS' => 'Windows_NT'
+    'COMPUTERNAME' => 'DESKTOP-99285S0'
+    'DASHLANE_DLL_DIR' => 'C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components'
+    'PROCESSOR_REVISION' => '4501'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\V-THOA'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\V-THOA'
+    'TMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556091220.5444
+    'REQUEST_TIME' => 1556091220
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-04-24 07:35:14 [-][-][-][error][ParseError] ParseError: syntax error, unexpected '}' in F:\ImportantData\Framework\Yii2\dethi\console\migrations\m190424_073152_create_transaction_history_table.php:35
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\MigrateController.php(196): yii\console\controllers\BaseMigrateController->includeMigrationFile('m190424_073152_...')
+#1 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(724): yii\console\controllers\MigrateController->createMigration('m190424_073152_...')
+#2 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m190424_073152_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#7 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#8 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 F:\ImportantData\Framework\Yii2\dethi\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 F:\ImportantData\Framework\Yii2\dethi\yii(23): yii\base\Application->run()
+#12 {main}
+2019-04-24 07:34:46 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PROMPT' => '$P$G'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-99285S0'
+    'LOCALAPPDATA' => 'C:\\Users\\V-THOA\\AppData\\Local'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  7 14:06:32 2018'
+    'PROCESSOR_LEVEL' => '6'
+    'USERDOMAIN' => 'DESKTOP-99285S0'
+    'LOGONSERVER' => '\\\\DESKTOP-99285S0'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_131'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'ANDROID_HOME' => 'C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'SystemDrive' => 'C:'
+    'OneDrive' => 'C:\\Users\\V-THOA\\OneDrive'
+    'APPDATA' => 'C:\\Users\\V-THOA\\AppData\\Roaming'
+    'USERNAME' => 'V-THOA'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'Path' => 'C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\V-THOA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\V-THOA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\V-THOA\\AppData\\Roaming\\npm;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'OS' => 'Windows_NT'
+    'COMPUTERNAME' => 'DESKTOP-99285S0'
+    'DASHLANE_DLL_DIR' => 'C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components'
+    'PROCESSOR_REVISION' => '4501'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\V-THOA'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\V-THOA'
+    'TMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556091286.462
+    'REQUEST_TIME' => 1556091286
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-04-24 10:40:19 [-][-][-][error][yii\base\InvalidConfigException] ReflectionException: Class m180205_094240_create_themes_table does not exist in F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\di\Container.php:431
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\di\Container.php(431): ReflectionClass->__construct('m180205_094240_...')
+#1 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('m180205_094240_...')
+#2 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('m180205_094240_...', Array, Array)
+#3 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('m180205_094240_...', Array, Array)
+#4 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\console\controllers\MigrateController.php(201): yii\BaseYii::createObject(Array)
+#5 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(724): yii\console\controllers\MigrateController->createMigration('m180205_094240_...')
+#6 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m180205_094240_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#8 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#11 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#12 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#13 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#14 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 F:\ImportantData\Framework\Yii2\testquiz\yii(23): yii\base\Application->run()
+#16 {main}
+
+Next yii\base\InvalidConfigException: Failed to instantiate component or class "m180205_094240_create_themes_table". in F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\di\Container.php:433
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('m180205_094240_...')
+#1 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('m180205_094240_...', Array, Array)
+#2 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('m180205_094240_...', Array, Array)
+#3 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\console\controllers\MigrateController.php(201): yii\BaseYii::createObject(Array)
+#4 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(724): yii\console\controllers\MigrateController->createMigration('m180205_094240_...')
+#5 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m180205_094240_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#10 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 F:\ImportantData\Framework\Yii2\testquiz\yii(23): yii\base\Application->run()
+#15 {main}
+2019-04-24 10:40:10 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PROMPT' => '$P$G'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-99285S0'
+    'LOCALAPPDATA' => 'C:\\Users\\V-THOA\\AppData\\Local'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  7 14:06:32 2018'
+    'PROCESSOR_LEVEL' => '6'
+    'USERDOMAIN' => 'DESKTOP-99285S0'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'LOGONSERVER' => '\\\\DESKTOP-99285S0'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_131'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'ANDROID_HOME' => 'C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'SystemDrive' => 'C:'
+    'OneDrive' => 'C:\\Users\\V-THOA\\OneDrive'
+    'APPDATA' => 'C:\\Users\\V-THOA\\AppData\\Roaming'
+    'USERNAME' => 'V-THOA'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'Path' => 'C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\V-THOA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\V-THOA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\V-THOA\\AppData\\Roaming\\npm;'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'OS' => 'Windows_NT'
+    'COMPUTERNAME' => 'DESKTOP-99285S0'
+    'DASHLANE_DLL_DIR' => 'C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components'
+    'PROCESSOR_REVISION' => '4501'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\V-THOA'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\V-THOA'
+    'TMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556102410.5291
+    'REQUEST_TIME' => 1556102410
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-05-09 14:35:50 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_update_user_table in F:\ImportantData\Framework\Yii2\dethi.com.vn\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\dethi.com.vn\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('create_update_u...', Array)
+#1 F:\ImportantData\Framework\Yii2\dethi.com.vn\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('create_update_u...', Array)
+#2 F:\ImportantData\Framework\Yii2\dethi.com.vn\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 F:\ImportantData\Framework\Yii2\dethi.com.vn\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 F:\ImportantData\Framework\Yii2\dethi.com.vn\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 F:\ImportantData\Framework\Yii2\dethi.com.vn\yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_update_user_table". in F:\ImportantData\Framework\Yii2\dethi.com.vn\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\dethi.com.vn\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 F:\ImportantData\Framework\Yii2\dethi.com.vn\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 F:\ImportantData\Framework\Yii2\dethi.com.vn\yii(23): yii\base\Application->run()
+#3 {main}
+2019-05-09 14:35:50 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_131'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'PROMPT' => '$P$G'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\V-THOA\\.PhpStorm2019.1\\config\\terminal\\history\\history-8'
+    'SystemDrive' => 'C:'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'LOGONSERVER' => '\\\\DESKTOP-99285S0'
+    'TEMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'HOMEPATH' => '\\Users\\V-THOA'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DASHLANE_DLL_DIR' => 'C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components'
+    'ANDROID_HOME' => 'C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk'
+    'USERNAME' => 'V-THOA'
+    'ProgramFiles' => 'C:\\Program Files'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-99285S0'
+    'LOCALAPPDATA' => 'C:\\Users\\V-THOA\\AppData\\Local'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'APPDATA' => 'C:\\Users\\V-THOA\\AppData\\Roaming'
+    'HOMEDRIVE' => 'C:'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERDOMAIN' => 'DESKTOP-99285S0'
+    'PROCESSOR_LEVEL' => '6'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  7 14:06:32 2018'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'PROCESSOR_REVISION' => '4501'
+    'OneDrive' => 'C:\\Users\\V-THOA\\OneDrive'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'Path' => 'C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\V-THOA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\V-THOA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\V-THOA\\AppData\\Roaming\\npm;'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'USERPROFILE' => 'C:\\Users\\V-THOA'
+    'SESSIONNAME' => 'Console'
+    'windir' => 'C:\\WINDOWS'
+    'ProgramW6432' => 'C:\\Program Files'
+    'OS' => 'Windows_NT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'COMPUTERNAME' => 'DESKTOP-99285S0'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1557387350.3532
+    'REQUEST_TIME' => 1557387350
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_update_user_table'
+    ]
+    'argc' => 2
+]
+2019-05-30 15:28:45 [-][-][-][error][yii\console\Exception] yii\console\Exception: Thiếu đối số: name in F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\console\Controller.php:186
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#2 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('create', Array)
+#3 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('create', Array)
+#4 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#5 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#6 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 F:\ImportantData\Framework\Yii2\testquiz\yii(23): yii\base\Application->run()
+#8 {main}
+2019-05-30 15:28:44 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'NUMBER_OF_PROCESSORS' => '4'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_131'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'PROMPT' => '$P$G'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\V-THOA\\.PhpStorm2019.1\\config\\terminal\\history\\history-2'
+    'SystemDrive' => 'C:'
+    'LOGONSERVER' => '\\\\DESKTOP-99285S0'
+    'TEMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'HOMEPATH' => '\\Users\\V-THOA'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DASHLANE_DLL_DIR' => 'C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components'
+    'ANDROID_HOME' => 'C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk'
+    'USERNAME' => 'V-THOA'
+    'ProgramFiles' => 'C:\\Program Files'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-99285S0'
+    'LOCALAPPDATA' => 'C:\\Users\\V-THOA\\AppData\\Local'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'APPDATA' => 'C:\\Users\\V-THOA\\AppData\\Roaming'
+    'HOMEDRIVE' => 'C:'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERDOMAIN' => 'DESKTOP-99285S0'
+    'PROCESSOR_LEVEL' => '6'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  7 14:06:32 2018'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'PROCESSOR_REVISION' => '4501'
+    'OneDrive' => 'C:\\Users\\V-THOA\\OneDrive'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'Path' => 'C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\V-THOA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\V-THOA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\V-THOA\\AppData\\Roaming\\npm;'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'USERPROFILE' => 'C:\\Users\\V-THOA'
+    'SESSIONNAME' => 'Console'
+    'windir' => 'C:\\WINDOWS'
+    'ProgramW6432' => 'C:\\Program Files'
+    'OS' => 'Windows_NT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-99285S0'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1559204924.7054
+    'REQUEST_TIME' => 1559204924
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+    ]
+    'argc' => 2
+]
+2019-05-30 15:28:50 [-][-][-][error][yii\console\Exception] yii\console\Exception: Thiếu đối số: name in F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\console\Controller.php:186
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#2 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('create', Array)
+#3 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('create', Array)
+#4 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#5 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#6 F:\ImportantData\Framework\Yii2\testquiz\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 F:\ImportantData\Framework\Yii2\testquiz\yii(23): yii\base\Application->run()
+#8 {main}
+2019-05-30 15:28:50 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'NUMBER_OF_PROCESSORS' => '4'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_131'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'PROMPT' => '$P$G'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\V-THOA\\.PhpStorm2019.1\\config\\terminal\\history\\history-2'
+    'SystemDrive' => 'C:'
+    'LOGONSERVER' => '\\\\DESKTOP-99285S0'
+    'TEMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'HOMEPATH' => '\\Users\\V-THOA'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DASHLANE_DLL_DIR' => 'C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components'
+    'ANDROID_HOME' => 'C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk'
+    'USERNAME' => 'V-THOA'
+    'ProgramFiles' => 'C:\\Program Files'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-99285S0'
+    'LOCALAPPDATA' => 'C:\\Users\\V-THOA\\AppData\\Local'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'APPDATA' => 'C:\\Users\\V-THOA\\AppData\\Roaming'
+    'HOMEDRIVE' => 'C:'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERDOMAIN' => 'DESKTOP-99285S0'
+    'PROCESSOR_LEVEL' => '6'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  7 14:06:32 2018'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'PROCESSOR_REVISION' => '4501'
+    'OneDrive' => 'C:\\Users\\V-THOA\\OneDrive'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'Path' => 'C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\V-THOA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\V-THOA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\V-THOA\\AppData\\Roaming\\npm;'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'USERPROFILE' => 'C:\\Users\\V-THOA'
+    'SESSIONNAME' => 'Console'
+    'windir' => 'C:\\WINDOWS'
+    'ProgramW6432' => 'C:\\Program Files'
+    'OS' => 'Windows_NT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-99285S0'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1559204930.5643
+    'REQUEST_TIME' => 1559204930
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+    ]
+    'argc' => 2
+]
+2019-06-17 15:38:26 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/cretae in F:\ImportantData\Framework\Yii2\testquizs\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\testquizs\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('cretae', Array)
+#1 F:\ImportantData\Framework\Yii2\testquizs\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('cretae', Array)
+#2 F:\ImportantData\Framework\Yii2\testquizs\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/cretae', Array)
+#3 F:\ImportantData\Framework\Yii2\testquizs\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/cretae', Array)
+#4 F:\ImportantData\Framework\Yii2\testquizs\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 F:\ImportantData\Framework\Yii2\testquizs\yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/cretae". in F:\ImportantData\Framework\Yii2\testquizs\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 F:\ImportantData\Framework\Yii2\testquizs\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/cretae', Array)
+#1 F:\ImportantData\Framework\Yii2\testquizs\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 F:\ImportantData\Framework\Yii2\testquizs\yii(23): yii\base\Application->run()
+#3 {main}
+2019-06-17 15:38:26 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_131'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'PROMPT' => '$P$G'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\V-THOA\\.PhpStorm2019.1\\config\\terminal\\history\\history-9'
+    'SystemDrive' => 'C:'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'LOGONSERVER' => '\\\\DESKTOP-99285S0'
+    'TEMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\V-THOA\\AppData\\Local\\Temp'
+    'HOMEPATH' => '\\Users\\V-THOA'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DASHLANE_DLL_DIR' => 'C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components'
+    'ANDROID_HOME' => 'C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk'
+    'USERNAME' => 'V-THOA'
+    'ProgramFiles' => 'C:\\Program Files'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-99285S0'
+    'LOCALAPPDATA' => 'C:\\Users\\V-THOA\\AppData\\Local'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'APPDATA' => 'C:\\Users\\V-THOA\\AppData\\Roaming'
+    'HOMEDRIVE' => 'C:'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERDOMAIN' => 'DESKTOP-99285S0'
+    'PROCESSOR_LEVEL' => '6'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  7 14:06:32 2018'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'PROCESSOR_REVISION' => '4501'
+    'OneDrive' => 'C:\\Users\\V-THOA\\OneDrive'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'Path' => 'C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\composer;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\V-THOA\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\wamp64\\bin\\php\\php7.2.10;C:\\Users\\V-THOA\\AppData\\Roaming\\Dashlane\\4.6.8.25848\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\V-THOA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\V-THOA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\V-THOA\\AppData\\Roaming\\npm;'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'USERPROFILE' => 'C:\\Users\\V-THOA'
+    'SESSIONNAME' => 'Console'
+    'windir' => 'C:\\WINDOWS'
+    'ProgramW6432' => 'C:\\Program Files'
+    'OS' => 'Windows_NT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'COMPUTERNAME' => 'DESKTOP-99285S0'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1560760706.8741
+    'REQUEST_TIME' => 1560760706
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/cretae'
+        2 => 'update_exam_table'
+    ]
+    'argc' => 3
+]

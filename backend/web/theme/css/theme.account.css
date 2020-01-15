@@ -1,0 +1,220 @@
+﻿body {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header a {
+    background: url(/themes/default/images/logo.png) no-repeat center;
+    height: 56px;
+    padding: 16px 0;
+    display: block;
+}
+
+.content {
+    background: #fff;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
+    margin: 0 auto;
+    position: relative;
+    max-width: 470px;
+    z-index: 682;
+    max-width: 400px;
+    padding: 16px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    -webkit-appearance: none;
+    text-decoration: none;
+    border-radius: .25rem;
+    background: #4285f4;
+    color: #fff;
+}
+
+.btn.large {
+    font-size: 15px;
+    padding: 10px 18px;
+}
+
+.btn.facebook {
+    color: #fff;
+    background-color: #3b5998;
+}
+
+.btn.google {
+    color: #fff;
+    background-color: darkred;
+}
+
+.btn.meta {
+    color: #fff;
+    background-color: #da251c;
+}
+
+.socialLogin {
+    border-radius: 6px 6px 0 0;
+    border-top: 1px solid #eee;
+}
+
+h1 {
+    color: #525252;
+    font-size: 23px;
+    margin: 16px;
+    text-align: center;
+}
+
+.actions {
+    color: #525252;
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding: 16px 0;
+}
+
+.message {
+    line-height: 1.4em;
+    margin: 16px 0;
+    border-top: 1px solid #eee;
+    padding-top: 16px;
+}
+
+.title {
+    margin-bottom: 8px;
+    display: block;
+}
+
+.textfield {
+    display: block;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background: #fefefe;
+    padding: 7px;
+    line-height: 1.4em;
+    font-size: 16px;
+    font-family: arial;
+    max-width: 100%;
+}
+
+.textfield:focus {
+    background: #fff;
+}
+
+.textfield.large {
+    width: 480px;
+}
+
+.textfield.full {
+    width: 100%;
+}
+
+.selectfield {
+    padding: 7px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background: #fcfcfc;
+    border-radius: 3px;
+}
+
+.selectfield:focus {
+    background: #fff;
+}
+
+.form-login ul, .form-register ul.info {
+    padding: 0;
+}
+
+.form-login ul li, .form-register ul.info li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.form-register ul.info li .title {
+    display: block;
+}
+
+.form-login .toolbar, .form-register .toolbar {
+    text-align: center;
+    padding-top: 16px;
+    border-top: 1px solid #eee;
+}
+
+.form-login, .form-register {
+    margin-bottom: 16px;
+    border-top: 1px solid #eee;
+}
+
+.policies {
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding: 16px 0;
+}
+
+.field-validation-error {
+    color: red;
+    display: block;
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+.input-validation-error {
+    border: 1px solid red;
+}
+
+.validation-summary-errors {
+    color: red
+}
+
+.text-center {
+    text-align: center;
+}
+
+.accountkit {
+    min-height: 200px
+}
+
+.accountkit .actions {
+    display: block;
+}
+
+.accountkit .actions .btn {
+    float: right;
+}
+
+@media (min-width: 768px) {
+    .col-left {
+        padding-right: 5px !important;
+    }
+
+    .col-right {
+        padding-left: 5px !important;
+    }
+}
+
+.btn:hover {
+    color: #fff !important;
+}

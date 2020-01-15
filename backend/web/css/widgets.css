@@ -1,0 +1,89 @@
+.dashboard-panel__header {
+    position: relative;
+    padding: 10px 20px 10px 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background: #f1f3f5;
+    overflow: hidden;
+}
+
+.btn_color.btn_xs {
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+    width: 142px;
+}
+
+.widget-editor__right_pd {
+    padding-top: 26px;
+}
+
+.widget-editor__right {
+    margin-left: 50%;
+    padding-left: 10px;
+}
+
+.preview-frame {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.desktop-preview__site-url {
+    position: absolute;
+    top: 10px;
+    left: 67px;
+    width: 330px;
+    font-size: 9px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.desktop-preview {
+    height: 340px;
+    position: relative;
+    overflow: hidden;
+    padding: 32px 2px 2px;
+    background: #e7e7e7 url(/uploads/cms/img/desktop-preview.f798d1.png) no-repeat 0 0;
+    border-radius: 4px
+}
+
+.colorpicker {
+    background: url(/uploads/cms/img/custom_background.png);
+}
+
+.colorpicker_rgb_r {
+    background: url(/uploads/cms/img/custom_rgb_r.png);
+}
+
+.colorpicker_rgb_g {
+    background-image: url(/uploads/cms/img/custom_rgb_g.png);
+}
+
+.colorpicker_rgb_b {
+    background-image: url(/uploads/cms/img/custom_rgb_b.png);
+}
+
+.colorpicker_hex {
+    background: url(/uploads/cms/img/custom_hex.png) top;
+}
+
+.colorpicker_submit {
+    background: url(/uploads/cms/img/custom_submit.png) top;
+}
+
+.colorpicker_hsb_h {
+    background: url(/uploads/cms/img/custom_hsb_h.png);
+}
+
+.colorpicker_hsb_b {
+    background: url(/uploads/cms/img/custom_hsb_b.png);
+}
+
+.colorpicker_hsb_s {
+    background: url(/uploads/cms/img/custom_hsb_s.png);
+}
+
+.dashboard-panel__body {
+    padding: 0 !important;
+}
